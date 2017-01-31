@@ -1,0 +1,101 @@
+/* line 1, ../sass/variables/test/_test.scss */
+body {
+  /*background: white;*/ }
+
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 24, ../sass/diaspora.styles.scss */
+.l-page {
+  width: 960px;
+  margin: 0 auto; }
+  /* line 13, ../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.0/stylesheets/toolkit/_clearfix.scss */
+  .l-page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 31, ../sass/diaspora.styles.scss */
+.l-main {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media (min-width: 70em) {
+  /* line 40, ../sass/diaspora.styles.scss */
+  .l-region--main-video {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+
+  /* line 45, ../sass/diaspora.styles.scss */
+  .l-region--main-audio {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+  /* line 49, ../sass/diaspora.styles.scss */
+  .l-sectional {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 52, ../sass/diaspora.styles.scss */
+    .l-sectional .l-region--sectional-one {
+      width: 32.20339%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none; }
+    /* line 55, ../sass/diaspora.styles.scss */
+    .l-sectional .l-region--sectional-two {
+      width: 32.20339%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 33.89831%;
+      clear: none; }
+    /* line 58, ../sass/diaspora.styles.scss */
+    .l-sectional .l-region--sectional-three {
+      width: 32.20339%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+
+  /* line 64, ../sass/diaspora.styles.scss */
+  .l-content {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+
+  /* line 68, ../sass/diaspora.styles.scss */
+  .l-region--sidebar-second {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+  /* line 73, ../sass/diaspora.styles.scss */
+  .l-footer {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 76, ../sass/diaspora.styles.scss */
+    .l-footer .l-region--footer-gallary {
+      background: yellow; } }
+
+/*# sourceMappingURL=diaspora.styles.css.map */

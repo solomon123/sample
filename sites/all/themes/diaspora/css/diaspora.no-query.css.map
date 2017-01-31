@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,IAAK;EACJ,sBAAsB;;ACDvB,oDAAoD;;ACApD,UAAW;EACT,SAAS,EAAE,IAAI;;;ACsBjB,OAAO;EAEN,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,MAAM;;ECdV,aAAQ;IACN,OAAO,EAAE,EAAE;IACX,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,IAAI;;;ADejB,OAAO;EEmEH,KAAY,EC5EN,IAAqD;ED4E3D,KAAY,EClER,KAAwB;EDkE5B,WAAY,EC5DmC,CAAC;ED4DhD,YAAY,ECtDqC,CAAC;EDsDlD,KAAY,ECpB0B,IAAI",
+"sources": ["../sass/variables/test/_test.scss","../sass/abstractions-slash-star-star-slash-star","../sass/base/_media.scss","../sass/diaspora.styles.scss","../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.0/stylesheets/toolkit/_clearfix.scss","../../../../../../../../lib/gems/2.3.0/gems/singularitygs-1.7.0/stylesheets/singularitygs/_api.scss","../../../../../../../../lib/gems/2.3.0/gems/singularitygs-1.7.0/stylesheets/singularitygs/api/_isolation.scss"],
+"names": [],
+"file": "diaspora.no-query.css"
+}

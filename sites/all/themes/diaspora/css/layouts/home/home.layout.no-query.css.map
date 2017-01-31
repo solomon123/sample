@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,IAAK;EACJ,sBAAsB;;ACDvB,0DAA0D;;ACA1D,UAAW;EACT,SAAS,EAAE,IAAI",
+"sources": ["../../../sass/variables/test/_test.scss","../../../sass/layouts/home/-dot-dot-slash-dot-dot-slash-abstractions-slash-star-star-slash-star","../../../sass/base/_media.scss"],
+"names": [],
+"file": "home.layout.no-query.css"
+}

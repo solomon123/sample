@@ -1,0 +1,61 @@
+/* line 1, ../../../sass/variables/test/_test.scss */
+body {
+  /*background: white;*/ }
+
+/* No files to import found in ../../abstractions/**\/* */
+/* line 1, ../../../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 25, ../../../sass/layouts/interior/interior.layout.scss */
+.l-page {
+  width: 960px;
+  margin: 30px auto; }
+  /* line 13, ../../../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.0/stylesheets/toolkit/_clearfix.scss */
+  .l-page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 33, ../../../sass/layouts/interior/interior.layout.scss */
+.l-main {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media (min-width: 70em) {
+  /* line 40, ../../../sass/layouts/interior/interior.layout.scss */
+  .l-region--navigation {
+    font-size: 13px;
+    margin: 20px auto; }
+
+  /* line 45, ../../../sass/layouts/interior/interior.layout.scss */
+  .l-content {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+
+  /* line 49, ../../../sass/layouts/interior/interior.layout.scss */
+  .l-region--sidebar-second {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+  /* line 54, ../../../sass/layouts/interior/interior.layout.scss */
+  .l-footer {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 57, ../../../sass/layouts/interior/interior.layout.scss */
+    .l-footer .l-region--footer-gallary {
+      background: yellow; } }
+
+/*# sourceMappingURL=interior.layout.css.map */

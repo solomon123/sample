@@ -1,0 +1,263 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+body {
+	background: #ccffcc;
+}
+
+.l-page{
+
+	//width:980px;
+	margin:30px auto;
+	@include clearfix;
+}
+
+.l-main{
+	
+	
+	margin: 10px auto;
+	background: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+
+
+@include breakpoint($tab, true){
+	
+	.l-slide{
+	width: $tab;
+		@include grid-span(12,1);
+		margin: 5px 0 20px 0;
+
+		.l-region--main-video {
+		
+			
+			height:350px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+
+		.l-region--main-audio {
+			
+			height:350px;
+			padding: 5px 5px 5px 5px;
+			background:#00b300;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+			
+		}
+		//height: 450px;
+
+	}
+    
+    .l-region--navigation{
+     	font-size: 13px;
+     	margin: 20px auto;
+     }
+
+	
+
+	.l-sectional{
+
+		@include grid-span(12,1);
+		margin:10, auto;
+		.l-region--sectional-one{
+			
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+		.l-region--sectional-two{
+			
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+		.l-region--sectional-three{
+			
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+	}
+
+
+	.l-content {
+	    margin:20px auto;
+		
+		background:#fff;
+		padding: 5px 5px 5px 10px;
+		
+	}
+
+	.l-region--sidebar-second{
+		@include grid-span(3, 10);
+		
+	}
+
+
+	.l-footer{
+		//@include grid-span(12,1);
+		max-width: 1000px;
+		background: #CFD7DB;
+		margin: 0 auto;
+		color: #8A8A8A;
+		float:bottom;
+
+		.l-region--footer-gallary{
+			min-height: 50px;
+			margin: 5px auto;
+			
+		}
+
+		.copyright{
+		  	padding: 5px 15px 5px 15px;
+		  	float:left;
+			text-align: left;
+			
+		}
+
+		.credits{
+			padding: 5px 15px 5px 15px;
+			float:right;
+			text-align: right;
+			
+		}
+	}
+
+
+}
+
+@include breakpoint($desk, true){
+	
+	.l-slide{
+	width: $desk;
+		@include grid-span(12,1);
+		margin: 5px 0 20px 0;
+
+		.l-region--main-video {
+		
+			@include grid-span(8, 1);
+			height:350px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+
+		.l-region--main-audio {
+			@include grid-span(4, 9);
+			height:350px;
+			padding: 5px 5px 5px 5px;
+			background:#00b300;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+			
+		}
+		//height: 450px;
+
+	}
+    
+    .l-region--navigation{
+     	font-size: 13px;
+     	margin: 20px auto;
+     }
+
+	
+
+	.l-sectional{
+
+		@include grid-span(12,1);
+		margin:10, auto;
+		.l-region--sectional-one{
+			@include grid-span(4,1);
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+		.l-region--sectional-two{
+			@include grid-span(4,5);
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+		.l-region--sectional-three{
+			@include grid-span(4,9);
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+	}
+
+
+	.l-content {
+	    margin:20px auto;
+		@include grid-span(9, 1);
+		background:#fff;
+		padding: 5px 5px 5px 10px;
+		
+	}
+
+	.l-region--sidebar-second{
+		@include grid-span(3, 10);
+		
+	}
+
+
+	.l-footer{
+		//@include grid-span(12,1);
+		max-width: 1000px;
+		background: #CFD7DB;
+		margin: 0 auto;
+		color: #8A8A8A;
+		float:bottom;
+
+		.l-region--footer-gallary{
+			min-height: 50px;
+			margin: 5px auto;
+			
+		}
+
+		.copyright{
+		  	padding: 5px 15px 5px 15px;
+		  	float:left;
+			text-align: left;
+			
+		}
+
+		.credits{
+			padding: 5px 15px 5px 15px;
+			float:right;
+			text-align: right;
+			
+		}
+	}
+
+
+}
