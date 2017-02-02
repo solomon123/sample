@@ -52,10 +52,10 @@
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-      <?php if(drupal_is_front_page()){?>
-      <?php $page['content']['system_main']['default_message']=array(); ?>
+      <?php //if(drupal_is_front_page()){?>
+      <?php //$page['content']['system_main']['default_message']=array(); ?>
       <?php print render($page['content']); ?>
-      <?php } ?>
+      <?php //} ?>
       <?php print $feed_icons; ?>
     </div>
 
