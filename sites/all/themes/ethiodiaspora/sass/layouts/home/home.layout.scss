@@ -27,13 +27,20 @@
 
 body{
 	background:$bodycolor;
+	font-family:helverica, ariel, sans-serif;
 }
+
+
+h1{color:$h1-color;}
+h1{color:$h2-color;}
+a{text-decoration:none;}
+
 
 //Setting a gutter and width for the main container l-page
 
 .l-page{
 
-	background:#cdf7cf;
+	background:$page-color;
 	
 	@include breakpoint($tab, true){
 		width:$tab;
@@ -83,24 +90,27 @@ body{
 	//setting the l-sectional which is a three pic board
 
 	.l-sectional{
-
+		margin:0 5px 0 5px;
 		padding: 5px 0 5px 0;
 
 		.l-region--sectional-one{
+			
 			padding: 5px 5px 5px 5px;
 			height:200px;
-			background:$sectional-one;
+			background:$h1-color;
 			box-shadow: 0 1px 2px 0 rgba(0,0,0,0);
+			border-radious:5px;
 		}
 		.l-region--sectional-two{
 			padding: 5px 5px 5px 5px;
 			height:200px;
-			background:$sectional-two;
+			background:$h1-color;
 		}
 		.l-region--sectional-three{
+
 			padding: 5px 5px 5px 5px;
 			height:200px;
-			background:$sectional-three;
+			background:$h1-color;
 		}
 
 	}
@@ -111,6 +121,31 @@ body{
 		.l-content{
 			padding: 5px 10px 5px 5px;
 			text-align: justify;
+
+
+			.views-field{
+				padding: 50px 5px 5px 5px;
+
+			}
+			.views-field-title{
+				a{
+					background-color:orange;
+					color:white;
+					padding: 14px 25px;
+					text-align: center;
+					display: inline-blovk;
+				}
+				a:hover, a:active{
+					background-color:red;
+				}
+			}
+
+			.views-field-body{
+				padding: 10px 15px 5px 15px;
+				background:$bodycolor;
+				border-radius:0 15px 0 15px;
+
+			}
 		}
 
 		.l-region--sidebar-second{
@@ -166,10 +201,7 @@ body{
 	.l-main--audio{
 
 		@include grid-span(12,1);
-
-
 	}
-
 
 }
 

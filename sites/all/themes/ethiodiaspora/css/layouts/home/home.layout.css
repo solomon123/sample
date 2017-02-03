@@ -1,19 +1,32 @@
 /* No files to import found in ../../abstractions/**\/* */
 /* line 28, ../../../sass/layouts/home/home.layout.scss */
 body {
-  background: #eaebed; }
+  background: #cccdce;
+  font-family: helverica, ariel, sans-serif; }
 
 /* line 34, ../../../sass/layouts/home/home.layout.scss */
+h1 {
+  color: #708C87; }
+
+/* line 35, ../../../sass/layouts/home/home.layout.scss */
+h1 {
+  color: #708C87; }
+
+/* line 36, ../../../sass/layouts/home/home.layout.scss */
+a {
+  text-decoration: none; }
+
+/* line 41, ../../../sass/layouts/home/home.layout.scss */
 .l-page {
-  background: #cdf7cf;
+  background: #f7fff9;
   margin: 0 auto;
   padding: 10px 0 0px 0; }
   @media (min-width: 44em) {
-    /* line 34, ../../../sass/layouts/home/home.layout.scss */
+    /* line 41, ../../../sass/layouts/home/home.layout.scss */
     .l-page {
       width: 44em; } }
   @media (min-width: 70em) {
-    /* line 34, ../../../sass/layouts/home/home.layout.scss */
+    /* line 41, ../../../sass/layouts/home/home.layout.scss */
     .l-page {
       width: 70em; } }
   /* line 13, ../../../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
@@ -21,64 +34,84 @@ body {
     content: "";
     display: table;
     clear: both; }
-  /* line 57, ../../../sass/layouts/home/home.layout.scss */
+  /* line 64, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-branding img {
     width: 100%; }
-  /* line 64, ../../../sass/layouts/home/home.layout.scss */
+  /* line 71, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-top {
     padding: 5px 0 5px 0; }
-    /* line 72, ../../../sass/layouts/home/home.layout.scss */
+    /* line 79, ../../../sass/layouts/home/home.layout.scss */
     .l-page .l-top .l-main--audio {
       padding: 20px; }
-      /* line 76, ../../../sass/layouts/home/home.layout.scss */
+      /* line 83, ../../../sass/layouts/home/home.layout.scss */
       .l-page .l-top .l-main--audio .l-region--main-audio .views-row {
         padding: 10px; }
-  /* line 85, ../../../sass/layouts/home/home.layout.scss */
+  /* line 92, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-sectional {
+    margin: 0 5px 0 5px;
     padding: 5px 0 5px 0; }
-    /* line 89, ../../../sass/layouts/home/home.layout.scss */
+    /* line 96, ../../../sass/layouts/home/home.layout.scss */
     .l-page .l-sectional .l-region--sectional-one {
       padding: 5px 5px 5px 5px;
       height: 200px;
-      background: #4da50e;
-      box-shadow: 0 1px 2px 0 transparent; }
-    /* line 95, ../../../sass/layouts/home/home.layout.scss */
+      background: #708C87;
+      box-shadow: 0 1px 2px 0 transparent;
+      border-radious: 5px; }
+    /* line 104, ../../../sass/layouts/home/home.layout.scss */
     .l-page .l-sectional .l-region--sectional-two {
       padding: 5px 5px 5px 5px;
       height: 200px;
-      background: #ffe102; }
-    /* line 100, ../../../sass/layouts/home/home.layout.scss */
+      background: #708C87; }
+    /* line 109, ../../../sass/layouts/home/home.layout.scss */
     .l-page .l-sectional .l-region--sectional-three {
       padding: 5px 5px 5px 5px;
       height: 200px;
-      background: #ff0000; }
-  /* line 111, ../../../sass/layouts/home/home.layout.scss */
+      background: #708C87; }
+  /* line 121, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-main .l-content {
     padding: 5px 10px 5px 5px;
     text-align: justify; }
-  /* line 116, ../../../sass/layouts/home/home.layout.scss */
+    /* line 126, ../../../sass/layouts/home/home.layout.scss */
+    .l-page .l-main .l-content .views-field {
+      padding: 50px 5px 5px 5px; }
+    /* line 131, ../../../sass/layouts/home/home.layout.scss */
+    .l-page .l-main .l-content .views-field-title a {
+      background-color: orange;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      display: inline-blovk; }
+    /* line 138, ../../../sass/layouts/home/home.layout.scss */
+    .l-page .l-main .l-content .views-field-title a:hover, .l-page .l-main .l-content .views-field-title a:active {
+      background-color: red; }
+    /* line 143, ../../../sass/layouts/home/home.layout.scss */
+    .l-page .l-main .l-content .views-field-body {
+      padding: 10px 15px 5px 15px;
+      background: #cccdce;
+      border-radius: 0 15px 0 15px; }
+  /* line 151, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-main .l-region--sidebar-second {
     padding: 5px 10px 5px 5px;
     text-align: justify; }
-  /* line 123, ../../../sass/layouts/home/home.layout.scss */
+  /* line 158, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-footer-gallary {
     padding: 5px 5px 5px 5px;
     background: blue; }
-  /* line 128, ../../../sass/layouts/home/home.layout.scss */
+  /* line 163, ../../../sass/layouts/home/home.layout.scss */
   .l-page .l-footer {
     padding: 5px 5px 5px 5px;
     background: #161616;
     height: 150px; }
-    /* line 135, ../../../sass/layouts/home/home.layout.scss */
+    /* line 170, ../../../sass/layouts/home/home.layout.scss */
     .l-page .l-footer .l-region--footer a, .l-page .l-footer .l-region--footer p {
       color: white; }
-    /* line 139, ../../../sass/layouts/home/home.layout.scss */
+    /* line 174, ../../../sass/layouts/home/home.layout.scss */
     .l-page .l-footer .l-region--footer p {
       bottom: 0;
       right: 100px; }
 
 @media (min-width: 44em) {
-  /* line 159, ../../../sass/layouts/home/home.layout.scss */
+  /* line 194, ../../../sass/layouts/home/home.layout.scss */
   .l-main,
   .l-header,
   .l-top,
@@ -93,17 +126,17 @@ body {
     margin-right: 0;
     clear: none; } }
 @media (min-width: 70em) {
-  /* line 184, ../../../sass/layouts/home/home.layout.scss */
+  /* line 216, ../../../sass/layouts/home/home.layout.scss */
   .l-top {
     padding: 5px 0 5px 0; }
-    /* line 187, ../../../sass/layouts/home/home.layout.scss */
+    /* line 219, ../../../sass/layouts/home/home.layout.scss */
     .l-top .l-main--video {
       width: 66.10169%;
       float: left;
       margin-right: -100%;
       margin-left: 0;
       clear: none; }
-    /* line 192, ../../../sass/layouts/home/home.layout.scss */
+    /* line 224, ../../../sass/layouts/home/home.layout.scss */
     .l-top .l-main--audio {
       width: 32.20339%;
       float: right;
@@ -111,24 +144,24 @@ body {
       margin-right: 0;
       clear: none; }
 
-  /* line 201, ../../../sass/layouts/home/home.layout.scss */
+  /* line 233, ../../../sass/layouts/home/home.layout.scss */
   .l-sectional {
     padding: 5px 0 5px 0; }
-    /* line 205, ../../../sass/layouts/home/home.layout.scss */
+    /* line 237, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-one {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 0;
       clear: none; }
-    /* line 209, ../../../sass/layouts/home/home.layout.scss */
+    /* line 241, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-two {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 33.89831%;
       clear: none; }
-    /* line 213, ../../../sass/layouts/home/home.layout.scss */
+    /* line 245, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-three {
       width: 32.20339%;
       float: right;
@@ -136,14 +169,14 @@ body {
       margin-right: 0;
       clear: none; }
 
-  /* line 223, ../../../sass/layouts/home/home.layout.scss */
+  /* line 255, ../../../sass/layouts/home/home.layout.scss */
   .l-main .l-content {
     width: 66.10169%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none; }
-  /* line 228, ../../../sass/layouts/home/home.layout.scss */
+  /* line 260, ../../../sass/layouts/home/home.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 32.20339%;
     float: right;
